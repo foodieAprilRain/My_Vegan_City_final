@@ -5,12 +5,12 @@
     android:id="@+id/relativeLayout2"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".MainActivity">
+    tools:context=".CitySearch">
 
     <!-- TODO: Update blank fragment layout  -->
 
     <ImageView
-        android:id="@+id/logo"
+        android:id="@+id/logo2"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:paddingTop="15dp"
@@ -21,7 +21,7 @@
 
 
     <TextView
-        android:id="@+id/MVC"
+        android:id="@+id/MVC2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center_horizontal"
@@ -32,7 +32,7 @@
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/logo" />
+        app:layout_constraintTop_toBottomOf="@id/logo2" />
 
 
 
@@ -40,7 +40,7 @@
     <ImageView
 
 
-        android:id="@+id/home_image"
+        android:id="@+id/home_image2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
@@ -48,10 +48,10 @@
         android:paddingBottom="50dp"
         android:src="@mipmap/home_image_4_foreground"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/MVC" />
+        app:layout_constraintTop_toBottomOf="@id/MVC2" />
 
     <TextView
-        android:id="@+id/home_text"
+        android:id="@+id/home_text2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center_horizontal"
@@ -62,7 +62,7 @@
         android:textSize="50sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/home_image" />
+        app:layout_constraintTop_toBottomOf="@id/home_image2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
