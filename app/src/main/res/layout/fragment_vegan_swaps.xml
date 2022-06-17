@@ -34,6 +34,184 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/logo5" />
 
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+        android:paddingTop="400dp"
+        android:paddingHorizontal="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo5">
+        <TableRow>
+            <TextView
+                android:text="Meat"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:padding="3dip" />
+            <TextView
+                android:text="Meat Alternatives"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Chicken"
+                android:background="@color/yellow"
+                android:padding="3dip" />
+            <TextView
+                android:text="input"
+                android:background="@color/yellow"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Beef"
+                android:padding="3dip" />
+            <TextView
+                android:text="input"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+        <TextView
+            android:text="Turkey"
+            android:background="@color/yellow"
+            android:padding="3dip" />
+        <TextView
+            android:text="input"
+            android:background="@color/yellow"
+            android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Pork/Ham"
+                android:padding="3dip" />
+            <TextView
+                android:text="input"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+        <TextView
+            android:text="Breakfast"
+            android:background="@color/yellow"
+            android:padding="3dip" />
+        <TextView
+            android:text="input"
+            android:background="@color/yellow"
+            android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Seafood"
+                android:padding="3dip" />
+            <TextView
+                android:text="input"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Misc."
+                android:background="@color/yellow"
+                android:padding="3dip" />
+            <TextView
+                android:text="Input"
+                android:background="@color/yellow"
+                android:padding="3dip" />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+        android:paddingTop="175dp"
+        android:paddingHorizontal="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo5">
+        <TableRow>
+            <TextView
+                android:text="Dairy and Eggs"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:padding="3dip" />
+            <TextView
+                android:text="Dairy and Eggs Alternatives"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Yogurt"
+                android:background="@color/yellow"
+                android:padding="3dip" />
+            <TextView
+                android:text="input"
+                android:background="@color/yellow"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Milk and Creamer"
+                android:padding="3dip" />
+            <TextView
+                android:text="input"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Cheese"
+                android:background="@color/yellow"
+                android:padding="3dip" />
+            <TextView
+                android:text="input"
+                android:background="@color/yellow"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Ice Cream"
+                android:padding="3dip" />
+            <TextView
+                android:text="input"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Misc. Dairy"
+                android:background="@color/yellow"
+                android:padding="3dip" />
+            <TextView
+                android:text="input"
+                android:background="@color/yellow"
+                android:padding="3dip" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="Eggs"
+                android:padding="3dip" />
+            <TextView
+                android:text="input"
+                android:padding="3dip" />
+        </TableRow>
+
+    </TableLayout>
+
 
 
 
